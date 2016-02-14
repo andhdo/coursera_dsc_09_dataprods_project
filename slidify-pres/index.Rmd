@@ -37,5 +37,3 @@ knit        : slidify::knit2slides
 ## Conclusions
 1. ease interactivity and web application deployment for charts and visualizations
 2. difficult to search for a problem to analyze
-
-
