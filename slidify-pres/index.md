@@ -28,8 +28,8 @@ knit        : slidify::knit2slides
 
 ## Results
 
-1. source code: 
-2. application: 
+1. [source code](https://github.com/andhdo/coursera_dsc_09_dataprods_project.git)
+2. [application](https://andhdo.shinyapps.io/coursera_dsc_09_dataprods_project/) 
 3. slidify pres: 
 
 --- .class #id 
