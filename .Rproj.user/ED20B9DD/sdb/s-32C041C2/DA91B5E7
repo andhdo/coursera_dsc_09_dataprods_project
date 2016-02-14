@@ -1,0 +1,17 @@
+{
+    "contents" : "---\ntitle       : Cars93\nsubtitle    : data-products project\nauthor      : andhdo\njob         : \nframework   : io2012        # {io2012, html5slides, shower, dzslides, ...}\nhighlighter : highlight.js  # {highlight.js, prettify, highlight}\nhitheme     : tomorrow      # \nwidgets     : []            # {mathjax, quiz, bootstrap}\nmode        : selfcontained # {standalone, draft}\nknit        : slidify::knit2slides\n---\n\n## Problem\n\n1. Search a car inside the Car93 dataset\n2. Compare the influencer variables to take decision, using scatterplot\n3. spread the report as a web application\n\n--- .class #id \n\n## Proposed solution\n\n1. functionality to search for a car of interest in the dataset\n2. functionality to see similar offers inside the mnufacturer\n3. functionality to see a general plot of prices\n4. functionality to see the variables against the price\n\n## Results\n\n1. source code: \n2. application: \n3. slidify pres: \n\n--- .class #id \n\n## Conclusions\n1. ease interactivity and web application deployment for charts and visualizations\n2. difficult to search for a problem to analyze\n\n\n",
+    "created" : 1455458545908.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "3750215867",
+    "id" : "DA91B5E7",
+    "lastKnownWriteTime" : 1455458550,
+    "path" : "C:/.apps/c.coursera.dsc.09_DataProds/week04/coursera_dsc_09_dataprods_project/slidify-pres/index.Rmd",
+    "project_path" : "slidify-pres/index.Rmd",
+    "properties" : {
+    },
+    "relative_order" : 3,
+    "source_on_save" : false,
+    "type" : "r_markdown"
+}
