@@ -1,0 +1,17 @@
+{
+    "contents" : "\n# This is the user-interface definition of a Shiny web application.\n# You can find out more about building applications with Shiny here:\n#\n# http://shiny.rstudio.com\n#\n\nlibrary(shiny)\nlibrary(MASS)\nrequire(rCharts)\noptions(RCHART_LIB = 'polycharts')\n\nmydata<-Cars93\n\nshinyUI(pageWithSidebar(\n  headerPanel('Shiny App (Cars93)'),\n  sidebarPanel(\n    selectInput(\"Manufacturer2\", \"Select a Manufacturer\", levels(droplevels(mydata$Manufacturer)), selected = \"Acura\"),    \n    selectInput(\"Type2\", \"Select a Type\", levels(droplevels(mydata$Type))[3:4],selected = levels(droplevels(mydata$Type))[3]),\n    verbatimTextOutput(\"oManufacturer\")\n  ),\n  mainPanel(\n    tabsetPanel(\n      tabPanel(\"Table\",dataTableOutput('mytable')),\n      tabPanel(\"Chart\",showOutput('myplot', 'polycharts')),\n      tabPanel(\"Price\",plotOutput('myprice')),\n      tabPanel(\"Scatter\",plotOutput('myfactors')),\n      tabPanel(\"Plot\", plotOutput(\"distPlot\"))\n    )\n  )\n))  \n\n\n# shinyUI(fluidPage(\n# \n#   # Application title\n#   titlePanel(\"Cars93\"),\n# \n#   # Sidebar with a slider input for number of bins\n#   sidebarLayout(\n#     sidebarPanel(\n#       sliderInput(\"bins\",\n#                   \"Number of bins:\",\n#                   min = 1,\n#                   max = 50,\n#                   value = 30)\n#     ),\n# \n#     # Show a plot of the generated distribution\n#     mainPanel(\n#       plotOutput(\"distPlot\")\n#     )\n#   )\n# ))\n",
+    "created" : 1455384359218.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "295034896",
+    "id" : "97B54633",
+    "lastKnownWriteTime" : 1455455484,
+    "path" : "C:/.apps/c.coursera.dsc.09_DataProds/week04/coursera_dsc_09_dataprods_project/ui.R",
+    "project_path" : "ui.R",
+    "properties" : {
+    },
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "type" : "r_source"
+}
