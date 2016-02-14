@@ -1,0 +1,17 @@
+{
+    "contents" : "# Developing data products (project)\n\n## Assignment Information\n\n### Application (Shiny)\n\n- test for some inputs\n- some operation at serverside\n\n### Pitch (Slidify/RstudioPresenter)\n- documentation presenting the idea\n- slides sources at gh-pages branch\n\n## Resolution\nUsing the [Cars93 dataset](https://stat.ethz.ch/R-manual/R-devel/library/MASS/html/Cars93.html) that collects information about cars on sale in US in 1993.\n\n",
+    "created" : 1455463605532.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2848929219",
+    "id" : "13C24F8B",
+    "lastKnownWriteTime" : 1455463636,
+    "path" : "C:/.apps/c.coursera.dsc.09_DataProds/week04/coursera_dsc_09_dataprods_project/README.md",
+    "project_path" : "README.md",
+    "properties" : {
+    },
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "type" : "markdown"
+}
