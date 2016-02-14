@@ -30,7 +30,7 @@ knit        : slidify::knit2slides
 
 1. [source code](https://github.com/andhdo/coursera_dsc_09_dataprods_project.git)
 2. [application](https://andhdo.shinyapps.io/coursera_dsc_09_dataprods_project/) 
-3. slidify pres: 
+3. [slidify pres](http://andhdo.github.io/coursera_dsc_09_dataprods_project/slidify-pres/): 
 
 --- .class #id 
 
